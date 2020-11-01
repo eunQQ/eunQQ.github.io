@@ -37,7 +37,7 @@ layout: compress
             {%- unless category.size == 0 -%}
             <p class="subtitle is-uppercase">
               <i class="fas fa-tags"></i>
-              page.category
+              {{page.category}}
             </p>
             {%- endunless -%}
             {%- assign tags = page.tags -%}
