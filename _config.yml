@@ -81,6 +81,8 @@ defaults:
       description: ""
       tags:
         - ""
+      categories:
+        - ""
   -
     scope:
       type: 'pages'
