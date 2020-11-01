@@ -79,9 +79,8 @@ defaults:
       layout: post
       post-image: ""
       description: ""
+      category: ""
       tags:
-        - ""
-      categories:
         - ""
   -
     scope:
