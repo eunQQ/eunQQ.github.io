@@ -94,6 +94,14 @@ defaults:
       layout: default
       comments: true
 
+# Archives
+category_archive:
+  type: liquid
+  path: /category/
+tag_archive:
+  type: liquid
+  path: /tags/
+
 # Exclude
 exclude:
   - .sass-cache/
