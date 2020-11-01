@@ -1,7 +1,7 @@
 ---
 title: 2020.11.01 블로그 시작
 layout: post
-post-image: "https://raw.githubusercontent.com/thedevslot/WhatATheme/master/assets/images/What%20is%20Jekyll%20and%20How%20to%20use%20it.png?token=AHMQUELVG36IDSA4SZEZ5P26Z64IW"
+post-image: "https://cdn.pixabay.com/photo/2014/10/22/17/25/running-498257_960_720.jpg"
 description: 2020.11.01 QQ's 블로그 시작
 tags:
 - Blog
