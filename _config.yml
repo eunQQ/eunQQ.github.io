@@ -95,33 +95,6 @@ defaults:
       layout: default
       comments: true
 
-  -
-    scope:
-      path: tags
-    values:
-      tab_active: Tags
-      location: Tag
-      breadcrumb:
-        -
-          label: Home
-          url: /
-        -
-          label: Tags
-          url: /tags/
-  -
-    scope:
-      path: categories
-    values:
-      tab_active: Categories
-      location: Category
-      breadcrumb:
-        -
-          label: Home
-          url: /
-        -
-          label: Categories
-          url: /categories/
-
 # Exclude
 exclude:
   - .sass-cache/

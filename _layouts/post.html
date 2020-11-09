@@ -34,7 +34,7 @@ layout: compress
               </a>
             </p>
 
-            <!-- {%- unless page.categories.size == 0 -%}
+            {%- unless page.categories.size == 0 -%}
             <p class="subtitle is-uppercase">
               <i class="fas fa-folder-open"></i>
               <span class="tag is-link">{{page.categories}}</span>
@@ -50,32 +50,8 @@ layout: compress
               {% assign i = i | plus:1 %}
               {% endfor %}
             </p>
-            {%- endunless -%} -->
+            {%- endunless -%}
 
-            <!-- categories -->
-            {% if page.categories.size > 0 %}
-            <div class="post-meta mb-3">
-              <i class="far fa-folder-open fa-fw mr-1"></i>
-              {% for category in page.categories %}
-                <a href='{{ site.baseurl }}/categories/{{ category | replace: ' ', '-' | downcase | url_encode }}/'>{{ category }}</a>
-                {%- unless forloop.last -%}, {%- endunless -%}
-              {% endfor %}
-            </div>
-            {% endif %}
-
-            <!-- tags -->
-            {% if page.tags.size > 0 %}
-            <div class="post-tags">
-              <i class="fa fa-tags fa-fw mr-1"></i>
-              {% for tag in page.tags %}
-              <a href="{{ site.baseurl }}/tags/{{ tag | replace: ' ', '-' | downcase | url_encode }}/"
-                class="post-tag no-text-decoration" >
-                {{- tag -}}
-              </a>
-              {% endfor %}
-              </div>
-            {% endif %}
-            
             {% assign words = content | number_of_words %}
             {%- unless content.size == 0 -%}
             <p class="subtitle is-uppercase"><i class="fas fa-clock"></i> <b class="has-text-link">
