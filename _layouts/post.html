@@ -33,10 +33,10 @@ layout: compress
               <b>{{ page.date | date: "%-B %d, %Y" }}</b> by <a href="{% if site.author-url %}{{site.author-url}}{% else %}{{site.url}}{{site.baseurl}}/#about{% endif %}" target="_blank"><b class="has-text-link"><u>{{site.author-name}}</u></b>
               </a>
             </p>
-            {%- unless page.category.size == 0 -%}
+            {%- unless page.categories.size == 0 -%}
             <p class="subtitle is-uppercase">
               <i class="fas fa-folder-open"></i>
-              <span class="tag is-link">{{page.category}}</span>
+              <span class="tag is-link">{{page.categories}}</span>
             </p>
             {%- endunless -%}
             {%- assign tags = page.tags -%}

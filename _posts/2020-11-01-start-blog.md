@@ -3,7 +3,7 @@ title: 2020.11.01 블로그 시작
 layout: post
 post-image: "https://cdn.pixabay.com/photo/2014/10/22/17/25/running-498257_960_720.jpg"
 description: 2020.11.01 QQ's 블로그 시작
-category: LIFE
+categories: LIFE
 tags:
 - Blog
 - 블로그

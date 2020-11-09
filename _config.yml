@@ -79,7 +79,8 @@ defaults:
       layout: post
       post-image: ""
       description: ""
-      category: ""
+      categories:
+        - ""
       tags:
         - ""
   -
@@ -97,7 +98,7 @@ defaults:
 # Archives
 category_archive:
   type: liquid
-  path: /category/
+  path: /categories/
 tag_archive:
   type: liquid
   path: /tags/
